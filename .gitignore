@@ -2,3 +2,6 @@
 
 .user.ini
 htonline.db
+install.lock
+
+// ignore install lock
