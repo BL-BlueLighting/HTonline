@@ -11,6 +11,7 @@ $step = false;
 if (isset($_GET ["installit"])) {
     $step = true;
     initDatabase();
+    file_put_contents("./install.lock", "./install.lock");
 }
 
 ?>
